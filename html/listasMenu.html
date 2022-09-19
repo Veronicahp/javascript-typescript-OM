@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+    <style>
+        
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            background-color: rgba(0, 0, 0, 0.5);
+            align-items:center;
+            background-color: brown;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            padding: 10px 20px;
+            display: block;  /* o a por padrão tem display inline. usamos esse estilo para mudar isso */
+            text-transform: uppercase;
+        }
+        
+        nav ul {
+            display: flex;
+            list-style: none;
+        }
+
+        nav a:hover {
+            background: rgba(0, 0, 0, 0.3);
+        }
+
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Products</a></li>
+        </ul>
+    </nav>
+</body>
+</html>
